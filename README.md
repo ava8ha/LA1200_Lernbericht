@@ -3,7 +3,7 @@ Gruppe Rabbit: Suganthasri, Hassani, Karrer, Bürgi
 
 ## Einleitung
 
-In diesem Projekt haben wir ein Programm codiert, mit welchem man Vokabel üben kann. Indem man ein Wort eingiebt und danach dessen Übersetzung. Es fragt einen dann ob man einen weiteren Begriff eingeben will. Nach Eingabe wird 
+In diesem Projekt haben wir ein Programm codiert, mit welchem man Vokabel üben kann. Indem man das gefragte Wort übersetzt. Es fragt einen dann ob man einen weiteren Begriff eingeben will. Nach Eingabe der gewünschten Wörter wird man gefragt die Übersetzung des gefragten Wortes anzugeben. Diese Eingabe wird dann gewertet als richtig oder Falsch und die korrekte Übersetzung wird angegeben. Das wiederholt sich bis der Voci-Satz durch gefragt wurde, dann wird 
 
 ## Was habe ich gelernt?
 
@@ -14,6 +14,8 @@ In diesem Projekt haben wir ein Programm codiert, mit welchem man Vokabel üben 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
 * Eine textliche Beschreibung
+In diesem Projekt haben wir ein Programm codiert, mit welchem man Vokabel üben kann. Indem man ein Wort eingiebt und danach dessen Übersetzung. Es fragt einen dann ob man einen weiteren Begriff eingeben will. Nach Eingabe der gewünschten Wörter wird man gefragt die Übersetzung des gefragten Wortes anzugeben. Diese Eingabe wird dann gewertet als richtig oder Falsch und die korrekte Übersetzung wird angegeben. Das wiederholt sich bis der Voci-Satz durch gefragt wurde, dann wird 
+
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
 * Ein gut dokumentierter Code-Fetzen
 * Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
