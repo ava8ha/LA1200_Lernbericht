@@ -21,7 +21,9 @@ Um Wörter in die List hineinzufügen, braucht man nicht wie beim Array die [], 
 Dafür war es dann schwieriger beim Wörter abfragen, da man nicht einfach bei der for-Schleife ein int in die [] setzen konnte und diese dann hochzählen. Wir hatten dort lange Probleme und schlussendlich lösten wir es mit ```.Count```. Beim darauf folgenden if else code funktionierten dann aber die Klammern, was dann kein Problem mehr war.
 
 
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
+* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme!
+ <img width="500" alt="2c95c38d-a3df-434d-8b30-6ab48ffe3737" src="https://user-images.githubusercontent.com/111045914/202409746-703a2e81-4bb8-47e0-b1e3-f0edcc9afad5.jpg">
+
 * Ein gut dokumentierter Code-Fetzen
 <img width='316' alt=' >
 
