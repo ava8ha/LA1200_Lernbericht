@@ -20,21 +20,22 @@ static List<string> germanWords = new List<string>();
 Um Wörter in die List hineinzufügen, braucht man nicht wie beim Array die [], sondern einfach nur ein ```.Add```. Es wird dann automatisch in die von 0-n Felder vom Programm hineingefügt, was auch einfacher ist als beim Array.
 Dafür war es dann schwieriger beim Wörter abfragen, da man nicht einfach bei der for-Schleife ein int in die [] setzen konnte und diese dann hochzählen. Wir hatten dort lange Probleme und schlussendlich lösten wir es mit ```.Count```. Beim darauf folgenden if else code funktionierten dann aber die Klammern, was dann kein Problem mehr war.
 
-
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme!
  <img width="500" alt="2c95c38d-a3df-434d-8b30-6ab48ffe3737" src="https://user-images.githubusercontent.com/111045914/202409746-703a2e81-4bb8-47e0-b1e3-f0edcc9afad5.jpg">
+ Im Bild ist erkannbar, dass das Programm die eingegebenen Wörter abgespeichert hat mit List, indem es sie als Korrektur zurückgibt.
 
-* Ein gut dokumentierter Code-Fetzen
-<img width='316' alt=' >
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Der Codesnippet ist aus unserem Code für das Programm, was heisst, der Code wird so angewendet und funktioniert.
+Das Bild soll die Ausgabe mit dem verwenden von List aufzeigen und visualisieren.   
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Wir haben die Arbeit fair und so gleichmässig wie möglich verteilt, weshalb wir sehr effizient arbeiten konnten und schnell voran kamen. 
 
-👎 und etwas, was nicht gut lief.
+👎 Wir hatten daraufhin jedoch ein paar Probleme mit dem zusammen setzten der verschiedenen Code-Teile, da alle leicht unterschiedlich vorangingen und Gedankensprozesse hatten. 
+Unsere Variablen, und allgemein der Code war/en nicht glasklar verständlich, was im nachhinein etwas schwieriger war, als es hätte sein müssen, um mit zu arbeiten 
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: 
+Klare Struktur des Codes abklären, dass alle ein gleiches gespür beim coden anwenden können. 
+Von Anfang an Wert legen auf eine saubere, klare und verständliche Struktur. Um das Überarbeiten zu erleichtern. 
