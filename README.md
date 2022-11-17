@@ -5,20 +5,21 @@ Gruppe Rabbit: Suganthasri, Hassani, Karrer, Bürgi
 
 In diesem Projekt haben wir ein Programm codiert, mit welchem man Vokabel üben kann, indem man das gefragte Wort übersetzt.
 
-## Was habe ich gelernt?
+## Was haben wir gelernt?
 Wir habe gelernt, wie man mit List arbeitet bzw. wie man es in einem Programm implementiert, und wie es funktioniert.
 
 ## Beschreibung
 
-Wir haben ein Programm geschrieben, mit dem man selbst ausgewählte Vokabeln lernen kann. Dazu mussten wir die Wörter speichern und das haben wir mit List gemacht. Erstellt, haben wir diese Lists mit dem folgenden Code:
+Wir haben ein Programm programmiert, mit dem man Wörter lernen kann. Es funktioniert so, dass es zuerst nach den Wörtern fragt, die man lernen möchte und die dazu gehörende Übersetzung. Diese speichert es dann in einer List. Eine List erstellt man mit folgendem Code:
 
 ```c#
 static List<string> englishWords = new List<string>();     
 static List<string> germanWords = new List<string>();
 ```
 
-Um Wörter in die List hineinzufügen, braucht man nicht wie beim Array die [], sondern einfach nur ein ```.Add```. Es wird dann automatisch in die von 0-n Felder vom Programm hineingefügt, was auch einfacher ist als beim Array.
-Dafür war es dann schwieriger beim Wörter abfragen, da man nicht einfach bei der for-Schleife ein int in die [] setzen konnte und diese dann hochzählen. Wir hatten dort lange Probleme und schlussendlich lösten wir es mit ```.Count```. Beim darauffolgenden if else code funktionierten dann aber die Klammern, was dann kein Problem mehr war.
+Um die Wörter in die List einzuspeichern, fügt man ein einfach .Add dazu, dass es dann automatisch in den nächsten leeren Speicher speichert. Bis hierhin ging unsere Arbeit auch mit dem restlichen ganz gut. Doch als nächstes kam das Wörterabfragen und hier hatten wir lange Probleme. Wir wussten von array, was eine andere Art von Liste ist, dass man dort ein int in die eckigen Klammern setzen konnte und wenn man diese dann jedes Mal erhöhte, es dann ein anderes eingespeicherte Wort rauskommt. Dies funktionierte auch bei der Korrektur, wo wir dann, falls der User das Wort falsch geschrieben hat, das abgefragte Wort nebendran richtig hinschrieben. Doch bei der for-Schleife ging das nicht. Wir suchten lange nach verschiedenen Lösungen und kamen am Ende auf die Lösung mit .Count. Dies zählt die Anzahl von etwas, hier jetzt die Wörter, und hier haben es dann so gemacht, dass es die Wörter abfragt, solang es die Anzahl abgefragter Wörter kleiner ist als alle Wörter, die eingegeben wurden.
+
+Bei der Korrektur haben wir einfach die Farbe geändert. Da heißt, falls es richtig ist wird es grün angezeigt und wenn es falsch ist wird es rot angezeigt. Am Ende haben wir dann noch einen Score eingebaut, der zeigt wie viele Wörter man richtig geschrieben hat und wie viel Prozent das sind. Wir haben auch noch Schleifen eingebaut, das man direkt die gleichen Wörter nochmal lernen konnte oder auch neue Wörter.
 
  <img width="500" alt="2c95c38d-a3df-434d-8b30-6ab48ffe3737" src="https://user-images.githubusercontent.com/111045914/202409746-703a2e81-4bb8-47e0-b1e3-f0edcc9afad5.jpg">
  Im Bild ist erkennbar, dass das Programm die eingegebenen Wörter abgespeichert hat mit List, indem es sie als Korrektur zurückgibt.
